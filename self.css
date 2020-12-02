@@ -87,3 +87,9 @@ article pre code {
 .hljs-ln td {
  padding-left: 20px !important;
 }
+/*行内的代码生成效果*/
+.post-content p code {
+ color:#C13;
+ background:#F0F0EC;
+  padding:2px 4px;
+}
