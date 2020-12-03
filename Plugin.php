@@ -71,7 +71,8 @@ class TypeChoHighLight_Plugin implements Typecho_Plugin_Interface
         $jsUrl = Helper::options()->pluginUrl . '/TypeChoHighLight/';
         
        
-        
+         echo '<script type="text/javascript" src="'. $jsUrl .'dom-to-image.min.js"></script>';
+         
         //$highlighUrl
         if (!Helper::options()->plugin('TypeChoHighLight')->highlighUrl) {
             echo '<script type="text/javascript" src="'. $jsUrl .'highlight.min.js?version=9.12.0"></script>';

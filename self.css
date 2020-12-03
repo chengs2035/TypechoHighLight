@@ -1,11 +1,21 @@
-.btn-copy-code {
-    transition:all .3s;
-	opacity:0.8;
+.div-copy-code {
+  
 	position:absolute;
-	color:#ddd;
-	background-color:transparent;
 	right:6px;
 	top:4px;
+	
+	/* border:1px solid; */
+}
+.btn-copy-code {
+  transition:all .3s;
+	opacity:0.8;
+	/* position:absolute; */
+	color:#ddd;
+	background-color:transparent;
+	/* right:6px; */
+  /* top:4px; */
+  left:5px;
+  margin-left:5px;
 	font-size:10px;
 	line-height:12px;
 	padding:3px 5px;
