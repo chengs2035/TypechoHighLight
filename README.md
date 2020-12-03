@@ -10,6 +10,7 @@ HighLight for Typecho
  * 支持一键复制，
  * 支持行号显示。
  * CDN来自：bootcdn.net
+ * 支持下载代码图
 
 clone 下来代码，在usr/plugins/创建目录`TypeChoHighLight`
 把clone下来的代码都复制上去（自行去掉.git）
